@@ -1,0 +1,28 @@
+#Rename this to extra_model_paths.yaml and ComfyUI will load it
+
+#config for a1111 ui
+#all you have to do is change the base_path to where yours is installed
+a111:
+    base_path: /kaggle/input/
+
+    checkpoints: |
+                sdmodel
+                xlmodel
+    configs: models/Stable-diffusion
+    vae: vaepack
+    loras: |
+         lorapack
+         models/LyCORIS
+    upscale_models: |
+                  upscalerpack
+                  models/RealESRGAN
+                  models/SwinIR
+    embeddings: embedingpack
+    hypernetworks: models/hypernetworks
+    controlnet: models/ControlNet
+
+#other_ui:
+#    base_path: path/to/ui
+#    checkpoints: models/checkpoints
+#    gligen: models/gligen
+#    custom_nodes: path/custom_nodes
