@@ -14,7 +14,7 @@ a111:
          loras1
          models/LyCORIS
     upscale_models: |
-                  upscalerpack
+                  upscaler
                   models/RealESRGAN
                   models/SwinIR
     embeddings: embedingpack
