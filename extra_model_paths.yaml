@@ -11,7 +11,7 @@ a111:
     configs: models/Stable-diffusion
     vae: vaepack
     loras: |
-         lorapack
+         loras1
          models/LyCORIS
     upscale_models: |
                   upscalerpack
