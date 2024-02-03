@@ -7,7 +7,7 @@ a111:
 
     checkpoints: |
                 sdmodel
-                xlmodel
+                modelxl
     configs: models/Stable-diffusion
     vae: vaepack
     loras: |
