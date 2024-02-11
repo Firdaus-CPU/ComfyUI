@@ -17,7 +17,7 @@ a111:
                   upscaler
                   models/RealESRGAN
                   models/SwinIR
-    embeddings: embedingpack
+    embeddings: embbedding2
     hypernetworks: models/hypernetworks
     controlnet: models/ControlNet
 
