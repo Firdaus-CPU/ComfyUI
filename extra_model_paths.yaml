@@ -19,7 +19,7 @@ a111:
                   models/SwinIR
     embeddings: embbedding2
     hypernetworks: models/hypernetworks
-    controlnet: models/ControlNet
+    controlnet: controllnet
 
 #other_ui:
 #    base_path: path/to/ui
